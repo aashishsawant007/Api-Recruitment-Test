@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Portfolio.Standard.BLL/1.0.0": {
+        "dependencies": {
+          "Portfolio.Standard.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Portfolio.Standard.BLL.dll": {}
+        }
+      },
+      "Portfolio.Standard.Contracts/1.0.0": {
+        "runtime": {
+          "Portfolio.Standard.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Portfolio.Standard.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Portfolio.Standard.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

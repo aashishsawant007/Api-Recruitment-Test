@@ -1,0 +1,9 @@
+D:\ConfluenceTest\Portfolio.Standard.Entities\bin\Debug\netcoreapp3.1\Portfolio.Standard.Entities.deps.json
+D:\ConfluenceTest\Portfolio.Standard.Entities\bin\Debug\netcoreapp3.1\Portfolio.Standard.Entities.dll
+D:\ConfluenceTest\Portfolio.Standard.Entities\bin\Debug\netcoreapp3.1\Portfolio.Standard.Entities.pdb
+D:\ConfluenceTest\Portfolio.Standard.Entities\obj\Debug\netcoreapp3.1\Portfolio.Standard.Entities.csprojAssemblyReference.cache
+D:\ConfluenceTest\Portfolio.Standard.Entities\obj\Debug\netcoreapp3.1\Portfolio.Standard.Entities.AssemblyInfoInputs.cache
+D:\ConfluenceTest\Portfolio.Standard.Entities\obj\Debug\netcoreapp3.1\Portfolio.Standard.Entities.AssemblyInfo.cs
+D:\ConfluenceTest\Portfolio.Standard.Entities\obj\Debug\netcoreapp3.1\Portfolio.Standard.Entities.csproj.CoreCompileInputs.cache
+D:\ConfluenceTest\Portfolio.Standard.Entities\obj\Debug\netcoreapp3.1\Portfolio.Standard.Entities.dll
+D:\ConfluenceTest\Portfolio.Standard.Entities\obj\Debug\netcoreapp3.1\Portfolio.Standard.Entities.pdb
