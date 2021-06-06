@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nagarro.Standard.Models
+namespace Portfolio.Standard.Models
 {
     public class AppSettings
     {

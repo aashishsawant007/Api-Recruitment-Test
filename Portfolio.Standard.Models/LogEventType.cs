@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Nagarro.Standard.Models
+﻿namespace Portfolio.Standard.Models
 {
-   public enum LoggingEvents
+    public enum LoggingEvents
 	{
 		GENERATE_ITEMS = 1000,
 		LIST_ITEMS = 1001,

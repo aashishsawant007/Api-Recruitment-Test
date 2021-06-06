@@ -1,8 +1,14 @@
 D:\ConfluenceTest\Portfolio.Standard.Contracts\bin\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.deps.json
 D:\ConfluenceTest\Portfolio.Standard.Contracts\bin\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.dll
 D:\ConfluenceTest\Portfolio.Standard.Contracts\bin\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.pdb
+D:\ConfluenceTest\Portfolio.Standard.Contracts\bin\Debug\netcoreapp3.1\Portfolio.Standard.Entities.dll
+D:\ConfluenceTest\Portfolio.Standard.Contracts\bin\Debug\netcoreapp3.1\Portfolio.Standard.Models.dll
+D:\ConfluenceTest\Portfolio.Standard.Contracts\bin\Debug\netcoreapp3.1\Portfolio.Standard.Entities.pdb
+D:\ConfluenceTest\Portfolio.Standard.Contracts\bin\Debug\netcoreapp3.1\Portfolio.Standard.Models.pdb
+D:\ConfluenceTest\Portfolio.Standard.Contracts\obj\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.csprojAssemblyReference.cache
 D:\ConfluenceTest\Portfolio.Standard.Contracts\obj\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.AssemblyInfoInputs.cache
 D:\ConfluenceTest\Portfolio.Standard.Contracts\obj\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.AssemblyInfo.cs
 D:\ConfluenceTest\Portfolio.Standard.Contracts\obj\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.csproj.CoreCompileInputs.cache
+D:\ConfluenceTest\Portfolio.Standard.Contracts\obj\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.csproj.CopyComplete
 D:\ConfluenceTest\Portfolio.Standard.Contracts\obj\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.dll
 D:\ConfluenceTest\Portfolio.Standard.Contracts\obj\Debug\netcoreapp3.1\Portfolio.Standard.Contracts.pdb

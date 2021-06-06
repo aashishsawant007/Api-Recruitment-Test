@@ -6,4 +6,3 @@ D:\ConfluenceTest\Portfolio.Standard.Test.API\obj\Debug\netcoreapp3.1\Portfolio.
 D:\ConfluenceTest\Portfolio.Standard.Test.API\obj\Debug\netcoreapp3.1\Portfolio.Standard.Test.API.csproj.CoreCompileInputs.cache
 D:\ConfluenceTest\Portfolio.Standard.Test.API\obj\Debug\netcoreapp3.1\Portfolio.Standard.Test.API.dll
 D:\ConfluenceTest\Portfolio.Standard.Test.API\obj\Debug\netcoreapp3.1\Portfolio.Standard.Test.API.pdb
-D:\ConfluenceTest\Portfolio.Standard.Test.API\obj\Debug\netcoreapp3.1\Portfolio.Standard.Test.API.csprojAssemblyReference.cache

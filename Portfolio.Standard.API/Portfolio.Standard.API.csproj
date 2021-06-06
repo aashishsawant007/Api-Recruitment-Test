@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Portfolio.Standard.BLL\Portfolio.Standard.BLL.csproj" />
     <ProjectReference Include="..\Portfolio.Standard.DAL\Portfolio.Standard.DAL.csproj" />
     <ProjectReference Include="..\Portfolio.Standard.Models\Portfolio.Standard.Models.csproj" />
   </ItemGroup>

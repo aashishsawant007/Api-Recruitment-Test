@@ -6,10 +6,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.6" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Portfolio.Standard.Contracts\Portfolio.Standard.Contracts.csproj" />
+    <ProjectReference Include="..\Portfolio.Standard.Entities\Portfolio.Standard.Entities.csproj" />
   </ItemGroup>
 
 </Project>

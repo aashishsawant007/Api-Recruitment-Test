@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nagarro.Standard.Models
+namespace Portfolio.Standard.Models
 {
    public class HandledException : Exception
 	{

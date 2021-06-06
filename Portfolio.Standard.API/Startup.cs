@@ -1,17 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Portfolio.Standard.BLL;
+using Portfolio.Standard.Contracts.BLL;
+using Portfolio.Standard.Contracts.DAL;
 using Portfolio.Standard.DAL;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Portfolio.Standard.API
 {
@@ -39,10 +35,12 @@ namespace Portfolio.Standard.API
             });
 
             services.AddSwaggerGen();
-            services.AddTransient<PortfolioContext>();
-            services.AddDbContext<PortfolioContext>(opt => {
-                opt.UseSqlite(Configuration.GetConnectionString("SqliteConnection"));
-            });
+            services.AddTransient<IBaseManager, BaseManager>();
+            services.AddTransient<IBaseRepository, BaseRepository>();
+            services.AddSingleton<PortfolioContext>();
+            //services.AddDbContext<PortfolioContext>(opt => {
+            //    opt.UseSqlite(Configuration.GetConnectionString("SqliteConnection"));
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,7 +60,7 @@ namespace Portfolio.Standard.API
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Portfolio API V1");
             });
             app.UseRouting();
 

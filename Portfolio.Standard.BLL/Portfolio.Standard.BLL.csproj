@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Portfolio.Standard.Contracts\Portfolio.Standard.Contracts.csproj" />
+    <ProjectReference Include="..\Portfolio.Standard.DAL\Portfolio.Standard.DAL.csproj" />
   </ItemGroup>
 
 </Project>

@@ -30,7 +30,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\Portfolio.Standard.Entities.csproj": {
+                "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\Portfolio.Standard.Entities.csproj"
+              },
+              "D:\\ConfluenceTest\\Portfolio.Standard.Models\\Portfolio.Standard.Models.csproj": {
+                "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.Models\\Portfolio.Standard.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -90,6 +97,9 @@
             "projectReferences": {
               "D:\\ConfluenceTest\\Portfolio.Standard.Contracts\\Portfolio.Standard.Contracts.csproj": {
                 "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.Contracts\\Portfolio.Standard.Contracts.csproj"
+              },
+              "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\Portfolio.Standard.Entities.csproj": {
+                "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\Portfolio.Standard.Entities.csproj"
               }
             }
           }
@@ -107,8 +117,126 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.6, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\Portfolio.Standard.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\Portfolio.Standard.Entities.csproj",
+        "projectName": "Portfolio.Standard.Entities",
+        "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\Portfolio.Standard.Entities.csproj",
+        "packagesPath": "C:\\Users\\aashishsawant\\.nuget\\packages\\",
+        "outputPath": "D:\\ConfluenceTest\\Portfolio.Standard.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aashishsawant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ConfluenceTest\\Portfolio.Standard.Models\\Portfolio.Standard.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ConfluenceTest\\Portfolio.Standard.Models\\Portfolio.Standard.Models.csproj",
+        "projectName": "Portfolio.Standard.Models",
+        "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.Models\\Portfolio.Standard.Models.csproj",
+        "packagesPath": "C:\\Users\\aashishsawant\\.nuget\\packages\\",
+        "outputPath": "D:\\ConfluenceTest\\Portfolio.Standard.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aashishsawant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",

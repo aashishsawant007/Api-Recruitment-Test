@@ -34,6 +34,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.6",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.6",
+          "Portfolio.Standard.BLL": "1.0.0",
           "Portfolio.Standard.DAL": "1.0.0",
           "Portfolio.Standard.Models": "1.0.0",
           "Swashbuckle.AspNetCore": "6.1.4",
@@ -867,7 +868,23 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
+      "Portfolio.Standard.BLL/1.0.0": {
+        "dependencies": {
+          "Portfolio.Standard.Contracts": "1.0.0",
+          "Portfolio.Standard.DAL": "1.0.0"
+        },
+        "runtime": {
+          "Portfolio.Standard.BLL.dll": {}
+        },
+        "compile": {
+          "Portfolio.Standard.BLL.dll": {}
+        }
+      },
       "Portfolio.Standard.Contracts/1.0.0": {
+        "dependencies": {
+          "Portfolio.Standard.Entities": "1.0.0",
+          "Portfolio.Standard.Models": "1.0.0"
+        },
         "runtime": {
           "Portfolio.Standard.Contracts.dll": {}
         },
@@ -878,13 +895,23 @@
       "Portfolio.Standard.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.6",
-          "Portfolio.Standard.Contracts": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.6",
+          "Portfolio.Standard.Contracts": "1.0.0",
+          "Portfolio.Standard.Entities": "1.0.0"
         },
         "runtime": {
           "Portfolio.Standard.DAL.dll": {}
         },
         "compile": {
           "Portfolio.Standard.DAL.dll": {}
+        }
+      },
+      "Portfolio.Standard.Entities/1.0.0": {
+        "runtime": {
+          "Portfolio.Standard.Entities.dll": {}
+        },
+        "compile": {
+          "Portfolio.Standard.Entities.dll": {}
         }
       },
       "Portfolio.Standard.Models/1.0.0": {
@@ -2812,12 +2839,22 @@
       "path": "system.text.json/5.0.0",
       "hashPath": "system.text.json.5.0.0.nupkg.sha512"
     },
+    "Portfolio.Standard.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Portfolio.Standard.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Portfolio.Standard.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Portfolio.Standard.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

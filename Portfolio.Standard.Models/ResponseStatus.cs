@@ -1,4 +1,4 @@
-﻿namespace Nagarro.Standard.Models
+﻿namespace Portfolio.Standard.Models
 {
     public enum ResponseStatus
     {

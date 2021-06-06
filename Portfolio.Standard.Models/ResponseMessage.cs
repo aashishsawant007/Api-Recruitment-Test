@@ -1,6 +1,6 @@
-﻿namespace Nagarro.Standard.Models
+﻿namespace Portfolio.Standard.Models
 {
-    public class ResponseMessage<TEntity>
+    public class ResponseMessage
 	{
 		#region Constructors & Destructors
 
@@ -17,8 +17,6 @@
 		#region Public Properties
 
 		public string Message { get; set; }
-
-		public TEntity Result { get; set; }
 		public ResponseStatus Status { get; set; }
 
 		#endregion

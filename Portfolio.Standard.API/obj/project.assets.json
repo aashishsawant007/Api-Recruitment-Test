@@ -553,9 +553,27 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
+      "Portfolio.Standard.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Portfolio.Standard.Contracts": "1.0.0",
+          "Portfolio.Standard.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Portfolio.Standard.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Portfolio.Standard.BLL.dll": {}
+        }
+      },
       "Portfolio.Standard.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Portfolio.Standard.Entities": "1.0.0",
+          "Portfolio.Standard.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Portfolio.Standard.Contracts.dll": {}
         },
@@ -568,13 +586,25 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.6",
-          "Portfolio.Standard.Contracts": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.6",
+          "Portfolio.Standard.Contracts": "1.0.0",
+          "Portfolio.Standard.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Portfolio.Standard.DAL.dll": {}
         },
         "runtime": {
           "bin/placeholder/Portfolio.Standard.DAL.dll": {}
+        }
+      },
+      "Portfolio.Standard.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Portfolio.Standard.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Portfolio.Standard.Entities.dll": {}
         }
       },
       "Portfolio.Standard.Models/1.0.0": {
@@ -1529,6 +1559,11 @@
         "version.txt"
       ]
     },
+    "Portfolio.Standard.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Portfolio.Standard.BLL/Portfolio.Standard.BLL.csproj",
+      "msbuildProject": "../Portfolio.Standard.BLL/Portfolio.Standard.BLL.csproj"
+    },
     "Portfolio.Standard.Contracts/1.0.0": {
       "type": "project",
       "path": "../Portfolio.Standard.Contracts/Portfolio.Standard.Contracts.csproj",
@@ -1538,6 +1573,11 @@
       "type": "project",
       "path": "../Portfolio.Standard.DAL/Portfolio.Standard.DAL.csproj",
       "msbuildProject": "../Portfolio.Standard.DAL/Portfolio.Standard.DAL.csproj"
+    },
+    "Portfolio.Standard.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Portfolio.Standard.Entities/Portfolio.Standard.Entities.csproj",
+      "msbuildProject": "../Portfolio.Standard.Entities/Portfolio.Standard.Entities.csproj"
     },
     "Portfolio.Standard.Models/1.0.0": {
       "type": "project",
@@ -1550,6 +1590,7 @@
       "Microsoft.EntityFrameworkCore >= 5.0.6",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.6",
+      "Portfolio.Standard.BLL >= 1.0.0",
       "Portfolio.Standard.DAL >= 1.0.0",
       "Portfolio.Standard.Models >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.1.4",
@@ -1587,6 +1628,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "D:\\ConfluenceTest\\Portfolio.Standard.BLL\\Portfolio.Standard.BLL.csproj": {
+              "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.BLL\\Portfolio.Standard.BLL.csproj"
+            },
             "D:\\ConfluenceTest\\Portfolio.Standard.DAL\\Portfolio.Standard.DAL.csproj": {
               "projectPath": "D:\\ConfluenceTest\\Portfolio.Standard.DAL\\Portfolio.Standard.DAL.csproj"
             },
